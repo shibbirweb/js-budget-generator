@@ -1,2 +1,2 @@
-# js-budget-generator
+# Budget generator
 Javascript budget generator
