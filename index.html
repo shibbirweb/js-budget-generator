@@ -29,14 +29,14 @@
                     <h4 class="card-title">Make your Budget</h4>
                     <!--Text-->
 
-                    <form action="">
+                    <form action="" id="productInputForm">
                         <!-- Grid row -->
                         <div class="row">
                             <!-- Grid column -->
                             <div class="col">
                                 <!-- Material input -->
                                 <div class="md-form form-sm mt-0">
-                                    <input type="text" id="name" class="form-control form-control-sm">
+                                    <input type="text" name="name" id="name" class="form-control form-control-sm">
                                     <label for="name">Name</label>
                                 </div>
                             </div>
@@ -46,8 +46,16 @@
                             <div class="col">
                                 <!-- Material input -->
                                 <div class="md-form form-sm mt-0">
-                                    <input type="text" id="price" class="form-control form-control-sm">
+                                    <input type="number" name="price" step="any" id="price" class="form-control form-control-sm">
                                     <label for="price">Price</label>
+                                </div>
+                            </div>
+                            <!-- Grid column -->
+                            <div class="col">
+                                <!-- Material input -->
+                                <div class="md-form form-sm mt-0">
+                                    <input type="number" name="quantity" id="quantity" class="form-control form-control-sm">
+                                    <label for="quantity">Quantity</label>
                                 </div>
                             </div>
 
@@ -63,7 +71,7 @@
                 </div>
 
 
-              <table class="table table-striped table-hover">
+              <table class="table table-striped table-hover product-table">
                 <thead>
                 <tr>
                   <th scope="col">#</th>
@@ -82,7 +90,7 @@
                   <td>@mdo</td>
                   <td>@mdo</td>
                   <td scope="row">
-asdfasdf
+                      asdfasdf
                   </td>
                 </tr>
                 </tbody>
@@ -103,7 +111,6 @@ asdfasdf
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Your custom scripts (optional) -->
-<script type="text/javascript"></script>
-
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
